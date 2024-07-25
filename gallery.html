@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALLERY</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #000;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .header h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .header .sub-header {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #666;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+        }
+        .grid-item {
+            position: relative;
+        }
+        .grid-item img {
+            width: 100%;
+            display: block;
+        }
+        .grid-item .label {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            padding: 5px 10px;
+            font-size: 16px;
+            border-radius: 3px;
+        }
+        .month-label {
+            grid-column: span 4;
+            font-size: 32px;
+            font-weight: bold;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <audio controls autoplay>
+  <source src="converse%20high.mp3" type="audio/ogg">
+  <source src="converse%20high.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+    <div class="container">
+        <div class="header">
+            <h1>GALLERY</h1>
+            <div class="sub-header">The Best Part of Beauty is that Which no Picture can Express</div>
+        </div>
+        <div class="grid">
+            <div class="month-label"></div>
+            <div class="grid-item"><img src="muni.9.jpg" alt="Event 1"></div>
+            <div class="grid-item"><img src="muni.10.jpg" alt="Event 2"></div>
+            <div class="grid-item"><img src="muni.11.jpg" alt="Event 3"></div>
+            <div class="grid-item"><img src="muni.12.jpg" alt="Event 4"></div>
+            <div class="grid-item"><img src="muni.13.jpg" alt="Event 5"></div>
+            <div class="grid-item"><img src="muni.14.jpg" alt="Event 6"></div>
+            <div class="grid-item"><img src="muni.15.jpg" alt="Event 7"></div>
+            <div class="grid-item"><img src="muni.17.jpg" alt="Event 8"></div>
+            <div class="month-label"></div>
+            <div class="grid-item"><img src="202203.3.jpg" alt="Event 9"></div>
+            <div class="grid-item"><img src="202203.jpg" alt="Event 10"></div>
+            <div class="grid-item"><img src="muni.18.jpg" alt="Event 11"></div>
+            <div class="grid-item"><img src="muni.19.jpg" alt="Event 12"></div>
+            
+        </div>
+    </div>
+</body>
+</html>
